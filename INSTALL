@@ -1,0 +1,20 @@
+Building with CMake
+-------------------
+
+    mkdir build && cd build
+    cmake -DCMAKE_PREFIX_PATH=/path/to/install ..
+    make install
+
+
+Build Options
+-------------
+
+Use cmake -LH to see full list of build options
+
+OpenMP Support
+
+    cmake -DWITH_OPENMP=ON ..
+
+Build Examples
+
+    cmake -DBUILD_EXAMPLES=ON ..
